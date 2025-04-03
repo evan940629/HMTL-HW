@@ -16,13 +16,13 @@
     font-size: 12px;
 }
 
-.top-nav .left, .top-nav .right {
+.top .left, .right {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.top-nav i {
+.top i {
     cursor: pointer;
 }
 
