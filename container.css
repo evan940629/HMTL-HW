@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to right, #FF5722, #FF7043);
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.top-nav .left, .top-nav .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-nav i {
+    cursor: pointer;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    width: 40%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+
+.search-bar button {
+    background: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar i {
+    color: #FF5722;
+    font-size: 16px;
+}
+
+.cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+}
+
+.b{
+    border: 10px solid black;
+
+}
+a {
+color: inherit; /* 使用继承的颜色（通常是黑色） */
+text-decoration: none; /* 去掉下划线 */
+}
