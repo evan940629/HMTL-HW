@@ -91,3 +91,27 @@ a {
 color: inherit; /* 使用继承的颜色（通常是黑色） */
 text-decoration: none; /* 去掉下划线 */
 }
+.two{
+    border: 10px solid black;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.three{
+    border: 10px solid black;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.four{
+    border: 10px solid black;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
