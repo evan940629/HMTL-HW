@@ -1,0 +1,11 @@
+footer{
+    border: 10px solid blue;
+}
+.four{
+    border: 10px solid black;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
