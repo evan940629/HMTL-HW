@@ -9,4 +9,12 @@ footer{
         margin-right: 10px;
         margin-left: 10px;
     }
+    .three{
+    border: 10px solid black;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
 }
