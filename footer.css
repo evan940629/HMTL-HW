@@ -2,19 +2,63 @@ footer{
     border: 10px solid blue;
 
     .four{
-        border: 10px solid black;
+        border: 10px solid rgb(0, 0, 0);
         height:150px;
         display: flex;
         justify-content: center;
         margin-right: 10px;
         margin-left: 10px;
     }
+    .pattern{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+    .banner-img {
+        width: 100%;
+        max-width: 1000px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgb(255, 255, 255);
+        transition: transform 0.3s ease;
+    }
+    
+    .banner-img:hover {
+        transform: scale(1.02);
+    }
+    
     .three{
     border: 10px solid black;
-    height:100px;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-right: 10px;
     margin-left: 10px;
+    }
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .button-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 40px;
+        padding: 5px;
+    }
+    .button-icon i {
+        font-size: 24px;
+        margin-bottom: 5px;
+        color: #ff5722;
+    }
+    .button-icon span {
+        font-size: 12px;
+        color: #333;
     }
 }
