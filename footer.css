@@ -15,17 +15,6 @@ footer{
         padding: 15px;
         background-color: #ffffff;
     }
-    .banner-img {
-        width: 100%;
-        max-width: 1000px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgb(255, 255, 255);
-        transition: transform 0.3s ease;
-    }
-    
-    .banner-img:hover {
-        transform: scale(1.02);
-    }
     
     .three{
     /* border: 10px solid black; */
@@ -41,7 +30,7 @@ footer{
         justify-content: center;
         gap: 75px;
     }
-    .categories a{
+    .categories a{ /*來自超連結的文字底線*/
         text-decoration: none;
     }
     .button-icon {
